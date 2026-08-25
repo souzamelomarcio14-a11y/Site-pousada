@@ -263,6 +263,10 @@ main {
     color: var(--texto-escuro);
 }
 
+.q_pessoas {
+    margin-top: 20px;
+}
+
 @media (max-width: 992px) {
 
     .menu {
