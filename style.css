@@ -27,7 +27,7 @@ body {
     
     font-family: 'Montserrat', sans-serif;
     background-color: var(--fundo-principal);
-    
+
  
 }
 
@@ -186,6 +186,7 @@ main {
     padding: 50px;
     border-top: 0.3px solid var(--cor-destaque);
     border-bottom: 0.3px solid var(--cor-destaque);
+    
 
 }
 
@@ -220,6 +221,7 @@ main {
     justify-content: center;
     gap: 30px;
     margin: 40px auto;
+    max-width: 1200px;
 }
 
 .quarto {
@@ -227,6 +229,14 @@ main {
     background-color: var(--fundo-card);
     border-radius: 20px;
     overflow: hidden;
+    border: 0.1px solid var(--cor-destaque);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quarto:hover {
+    transform: translateY(-8px);
+    border: 2px solid var(--cor-destaque-hover);
+    box-shadow: 0 12px 20px rgba(139, 139, 139, 0.15);
 }
 
 .foto_quarto {
@@ -240,6 +250,7 @@ main {
     padding: 20px;
     margin: 0px 0px 15px 0px;
     color: var(--fundo-card);
+    text-align: center;
 }
 
 .conteudo_quarto h4 {
@@ -247,6 +258,8 @@ main {
     color: var(--cor-destaque);
     font-weight: 200;
     margin-bottom: 20px;
+    border: 1px var(--cor-destaque);
+    
     
 }
 
@@ -255,6 +268,7 @@ main {
     font-weight: 600;
     margin-bottom: 20px;
     color: white;
+
 }
 
 .conteudo_quarto p {
@@ -263,8 +277,11 @@ main {
     color: var(--texto-escuro);
 }
 
-.q_pessoas {
-    margin-top: 20px;
+
+#q_pessoas {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--cor-destaque);
 }
 
 @media (max-width: 992px) {
