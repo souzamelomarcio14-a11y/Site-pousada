@@ -33,11 +33,18 @@ body {
 
 
 .menu {
+    background-color: rgba(0, 0, 0, 0.801);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--borda-suave);
     padding: 20px 30px 20px 30px;
+    position: fixed;
+    top: 0;            
+    left: 0;          
+    width: 100%;       
+    z-index: 1000;
+    
 
 }
 
@@ -94,7 +101,7 @@ body {
 
 main {
     color: var(--texto-claro);
-    margin: 30px;
+    margin-top: 250px;
     
 }
 
@@ -107,6 +114,7 @@ main {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    
 
     
 }
@@ -153,6 +161,7 @@ main {
     padding: 18px;
     border-radius: 5px;
     text-decoration: none;
+    transition: 1s;
 }
 
 .ver_btn .branco a {
@@ -161,11 +170,8 @@ main {
     border-radius: 5px;
     text-decoration: none;
     color: white;
-
-
-
 }
- 
+
 .imagem_principal img {
     width: 600px;
     border-radius: 20px;
@@ -176,7 +182,7 @@ main {
     display: flex;
     justify-content: center; 
     text-align: center; 
-    background-color: black;
+    background-color: var(--fundo-card);
     width: 100vw;
     position: relative;
     left: 50%;           
@@ -189,9 +195,8 @@ main {
     border-top: 0.3px solid var(--cor-destaque);
     border-bottom: 0.3px solid var(--cor-destaque);
 
-    
-
 }
+
 
 
 .servico_geral img {
@@ -216,7 +221,17 @@ main {
 
 .acomodacao {
     text-align: center;
-    margin: 30px;
+    margin: 70px;
+    
+}
+
+.acomodacao h2 {
+    display: inline-block;
+    border: 1px solid var(--cor-destaque);
+    padding: 10px;
+    border-radius: 30px;
+    color: var(--cor-destaque);
+    font-size: 20px;
 }
 
 .foto_geral {
@@ -289,6 +304,9 @@ main {
 }
 
 @media (max-width: 992px) {
+ 
+    
+
 
     .menu {
         flex-direction: column;
@@ -364,7 +382,7 @@ main {
 
     .foto_geral {
         text-align: center;
-    }
 
+    }
 
 }
