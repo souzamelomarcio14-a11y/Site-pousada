@@ -173,10 +173,10 @@ main {
 }
 
 .servico_geral {
-display: flex;
+    display: flex;
     justify-content: center; 
     text-align: center; 
-    background-color: var(--fundo-hover);
+    background-color: black;
     width: 100vw;
     position: relative;
     left: 50%;           
@@ -192,6 +192,7 @@ display: flex;
     
 
 }
+
 
 .servico_geral img {
     width: 40px;
