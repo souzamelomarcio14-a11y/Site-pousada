@@ -31,12 +31,14 @@ body {
  
 }
 
+
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--borda-suave);
     padding: 20px 30px 20px 30px;
+
 }
 
 .logo h1 {
