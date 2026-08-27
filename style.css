@@ -316,12 +316,13 @@ main {
 .experiencia .art1 {
     display: flex;
     margin: 100px;
+   
 }
 
-.experiencia .art1 .art1foto img {
+.experiencia .art1 .art1foto {
     
     width: 500px;
-    height: 400px;
+    height: 480px;
     border-radius: 20px;
     }
 
