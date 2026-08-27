@@ -317,6 +317,7 @@ main {
     max-width: 1200px;
     justify-content: center;
     margin: 0 auto;
+
     
 }
 
@@ -324,6 +325,7 @@ main {
     display: flex;
     margin: 100px;
     align-items: center;
+    gap: 40px;
 
    
 }
@@ -337,11 +339,6 @@ main {
     background-position: center center;
     background-size: cover;
     border: 1px solid var(--cor-destaque);
-    }
-
-    .experiencia  .art1p {
-        margin-left: 40px
-         
     }
 
     .experiencia  .art1p h2 {
