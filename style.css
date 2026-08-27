@@ -319,11 +319,17 @@ main {
    
 }
 
-.experiencia .art1 .art1foto {
+.experiencia  .art1foto {
     
     width: 500px;
     height: 480px;
     border-radius: 20px;
+    flex-shrink: 0;
+    }
+
+    .experiencia  .art1p {
+        margin-left: 400px;
+         
     }
 
 @media (max-width: 992px) {
