@@ -369,6 +369,11 @@ main {
 
 
 @media (max-width: 992px) {
+
+
+    main {
+        margin-top: 10px;
+    }
  
     
 
