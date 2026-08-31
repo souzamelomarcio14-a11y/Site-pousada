@@ -116,8 +116,6 @@ main {
     max-width: 1000px;
 
     
-
-    
 }
 
 .inicial h2 {
@@ -440,17 +438,20 @@ main {
 
     .footer_esquerdo p {
         color: var(--texto-escuro);
+        font-size: 12px;
     }
 
     .footer_direita h3 {
         color: white;
         margin-bottom: 20px;
+        
 
     }
 
     .footer_direita p {
         color: var(--texto-escuro);
         margin-bottom: 10px;
+        font-size: 12px;
     }
 
 
