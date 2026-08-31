@@ -314,35 +314,48 @@ main {
 }
 
 .experiencia {
-    max-width: 1200px;
     justify-content: center;
-    margin: 0 auto;
+    margin: 100px auto 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: space-between;
+    
 
     
 }
 
 .experiencia .art1 {
     display: flex;
-    margin: 100px;
     align-items: center;
     gap: 40px;
+    margin: 40px;
 
    
 }
 
-.experiencia  .art1foto {
+.experiencia #h2sup {
+    color: var(--cor-destaque);
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.experiencia p {
+    color: var(--texto-escuro);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.art1foto img {
     
     width: 450px;
-    height: 300px;
-    border-radius: 20px;
-    flex-shrink: 0;
-    background-position: center center;
-    background-size: cover;
+    border-radius: 20px;;
     border: 1px solid var(--cor-destaque);
     }
 
     .experiencia  .art1p h2 {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         font-family: 'Playfair Display', serif;
         color: var(--cor-destaque);
     }
@@ -363,7 +376,7 @@ main {
     .menu {
         flex-direction: column;
         text-align: center;
-        gap: 20px 15px;
+        
     }
 
 
@@ -408,13 +421,19 @@ main {
     .experiencia .art1 h2 {
         flex-direction: column;
         text-align: center;
-        margin-top: 30px;
+        
     }
 
     .experiencia .art1 .art1p p {
         text-align: center;
         
     }
+
+    .art1foto img {
+        width: 100%;
+    }
+
+     
 
 }
 
