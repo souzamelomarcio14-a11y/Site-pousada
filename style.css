@@ -391,6 +391,8 @@ main {
 .btn-whatsapp:hover {
     transform: scale(1.1); /* Aumenta levemente o botão ao passar o mouse */
 }
+
+
 @media (max-width: 992px) {
 
 
