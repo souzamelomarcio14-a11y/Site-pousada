@@ -107,15 +107,12 @@ main {
 
 
 .inicial {
-
-    margin: 100px auto 0 auto;
-    text-align: center;
+    margin: 30px auto ;
+    align-items: center;
+    text-align: left;
     display: flex;
-    justify-content: center;
-    gap: 60px;
+    justify-content: space-between;
     max-width: 1200px;
-    
-    
     
 
     
@@ -131,8 +128,8 @@ main {
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 30px;
-    margin-right: 0;
-    text-align: left;
+    
+    
 }
 
 .texto {
