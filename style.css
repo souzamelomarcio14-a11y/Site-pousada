@@ -408,6 +408,12 @@ main {
         transform: scale(1.08);
     }
 
+   .secao-mapa .mapa-container {
+        max-width: 100%;
+    }
+
+
+
 
 
     footer {
